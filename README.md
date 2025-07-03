@@ -19,18 +19,19 @@ Key features:
 
 Before running this script, ensure you have the following:
 
-1. **Python 3.6+ installed**
-2. Required libraries:
+1. **CUDA Toolkit**: Version 11.0 or higher installed on your system.
+2. **NVIDIA GPU**: With Compute Capability compatible with CUDA 11.0 (e.g., Pascal, Volta, or newer architectures).
+3. **Python 3.6+ installed**
+4. Required libraries:
    - NumPy
    - Pandas
+   - TensorFlow
    - Matplotlib
    - Scipy
    - Statsmodels
    - Requests
-
-3. Access to a MySQL database or configuration for one
-
-4. API keys (if required for data fetching)
+5. Access to a MySQL database or configuration for one
+6. CoinGecko API keys
 
 ## Installation
 
@@ -48,7 +49,7 @@ Before running this script, ensure you have the following:
    
 
 `bash`  
-   pip install numpy pandas matplotlib scipy statsmodels requests
+   pip install numpy pandas matplotlib scipy statsmodels requests tensorflow-gpu keras
    
 
 
@@ -85,6 +86,7 @@ Before running this script, ensure you have the following:
    - Process and analyze the data
    - Generate visualizations
    - Store results in the MySQL database
+   - Perform future price prediction using LSTM
 
 ## Data Processing
 
