@@ -13,6 +13,7 @@ Key features:
 - Predicts future prices using logarithmic regression
 - Visualizes price data and predictions
 - Stores processed data in a MySQL database
+- Performs future price prediction using LSTM model
 
 ## Prerequisites
 
