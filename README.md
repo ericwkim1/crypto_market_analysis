@@ -26,6 +26,7 @@ Before running this script, ensure you have the following:
    - NumPy
    - Pandas
    - TensorFlow
+   - Keras
    - Matplotlib
    - Scipy
    - Statsmodels
